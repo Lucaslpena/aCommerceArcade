@@ -3,7 +3,8 @@ import Head from 'next/head'
 import Normalize from 'react-normalize';
 import Nav from '../components/nav'
 
-const Home = () => (
+
+const PIR = () => (
   <div>
     <Normalize />
     <Head>
@@ -11,11 +12,10 @@ const Home = () => (
       <link rel="icon" href="/favicon.ico" />
     </Head>
     <Nav />
-
-
-
-
+    <div>
+      <h1>someshithere</h1>
+    </div>
   </div>
 )
 
-export default Home
+export default PIR
